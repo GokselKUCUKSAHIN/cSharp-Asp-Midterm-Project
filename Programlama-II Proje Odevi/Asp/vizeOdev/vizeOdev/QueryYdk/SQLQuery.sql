@@ -1,0 +1,1 @@
+﻿select  distinct  * from KitapOkuma where KullaniciID=1
