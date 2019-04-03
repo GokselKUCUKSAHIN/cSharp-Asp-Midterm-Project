@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+
+<style>
+.split {
+    height: 90%;
+    width: 75%;
+    position: fixed;
+    z-index: 1;
+    top: 40px;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.splitR {
+    height: 90%;
+    width: 75%;
+    position: fixed;
+    z-index: 1;
+    top: 40px;
+    overflow-x: hidden;
+}
+
+.left {
+    left: 0;
+	background-color:lightblue;
+}
+
+.right {
+    right: 0;
+	background-color:orange;
+}
+
+.centered {
+    position: absolute;
+    top: 0%;
+    left: 15%;
+    transform: translate(-50%,10%);
+    text-align: center;
+}
+.centeredR {
+    position: absolute;
+    top: auto;
+    left: 15%;
+    transform: translate(-50%,10%);
+    text-align: center;
+}
+.centered img{
+    border:5px solid;
+    border-color:lightyellow;
+    border-radius: 5%;
+    height: 300px;
+    width: 250px;
+}
+
+            </style>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>TEST</title>
+
+</head>
+    	
+<body style ="background-color: darkgray; font-family:Arial">
+<form id="form1" runat="server">
+
+    <div style="text-align:right;" height = "1000"><asp:Button ID="LogOut" runat="server" Text="Çıkış Yap" BackColor="#CC0000" Font-Bold="True" Font-Names="Arial" Font-Size="Small" ForeColor="White" Height="26px" Width="74px" BorderStyle="None" /></div>
+	
+    <div class="split left">
+        <div class="centered">
+            <img src="pp/1.jpg" alt="Avatar woman"/>
+            
+	    </div>
+    </div>
+
+    <div class="splitR right"style="border-left:12px solid #ffff50" >
+        <div class="centeredR">
+            <h1> TEST</h1>
+            <h1> TEST</h1>
+			<h1> TEST</h1>
+			<h1> TEST</h1>
+			<h1> TEST</h1>
+			<h1> TEST</h1>
+        </div>
+    </div>
+    </form>
+    </body>
+</html>

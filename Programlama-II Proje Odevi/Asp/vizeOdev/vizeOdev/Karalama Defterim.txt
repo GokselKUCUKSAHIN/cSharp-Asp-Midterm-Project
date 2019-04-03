@@ -1,0 +1,12 @@
+<!--
+<div>
+            <h1><% //Response.Write(Session["KullaniciID"].ToString()); %></h1>
+            <asp:Button ID="LogOut" runat="server" Text="Çýkýþ Yap" OnClick="Button1_Click" />
+            <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" style="margin-left: 19px" Text="Profil" />
+
+            <br />
+            <br />
+            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" style="margin-left: 21px" Text="Button" />
+        </div>
+-->
